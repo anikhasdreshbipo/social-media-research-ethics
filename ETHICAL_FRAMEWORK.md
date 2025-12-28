@@ -7,7 +7,7 @@
 
 ## 2. Anonymity and Privacy (Reference Issue #2)
 - **De‑identification Best Practices:** Remove or pseudonymise usernames, profile URLs, location data, and any other directly identifiable information. Consider using hashing techniques for user IDs.
-- **Re‑identification Risk Assessment:** Evaluate the risk that anonymised data could be linked back to individuals through unique combinations of attributes (e.g., rare job titles, specific life events). Apply additional aggregation or perturbation if needed.
+- **Re‑identification Risk Assessment:** Evaluate the risk that anonymised data could be linked back to individuals through unique combinations of attributes (e.g., rare job titles, specific life events). Apply additional aggregation or perturbation if needed. Consider using differential privacy techniques for aggregate statistics where appropriate.
 - **Data Storage and Access:** Store scraped data securely, limit access to authorised researchers, and define a clear retention period after which data should be deleted.
 
 ## 3. Data Integrity (Reference Issue #3)
